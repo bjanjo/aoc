@@ -1,3 +1,5 @@
+#!/usr/bin/python3 
+
 import unittest
 
 
@@ -13,6 +15,7 @@ class Test2(unittest.TestCase):
         self.assertEquals(factor(1), 0) 
     def test_factor2(self):
         self.assertEquals(factor(12), 3)
+        self.assertEquals(1,0)
     def test_factor3(self):
         self.assertEquals(factor(23), 2)
     def test_factor4(self):
